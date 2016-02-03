@@ -103,6 +103,9 @@ int main (void)
     
     /* Set all pin to output */
     gpio_set_direction_field(GPIO_PIN_ALL, (uint32_t)GPIO_OUTPUT);
+		
+
+		
     while(1)
     {
         int i;

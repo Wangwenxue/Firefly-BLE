@@ -1,0 +1,37 @@
+T2638 090:529 SEGGER J-Link V4.86a Log File (0001ms, 40770ms total)
+T2638 090:529 DLL Compiled: Jun 11 2014 17:22:49 (0001ms, 40770ms total)
+T2638 090:529 Logging started @ 2016-02-03 16:30 (0001ms, 40770ms total)
+T2638 090:530 JLINK_SetWarnOutHandler(...) (0000ms, 40770ms total)
+T2638 090:530 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Oct  9 2015 20:34:47
+Hardware: V9.00
+S/N: 30000302
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI  returns O.K. (0269ms, 41039ms total)
+T2638 090:799 JLINK_SetErrorOutHandler(...) (0000ms, 41039ms total)
+T2638 090:800 JLINK_ExecCommand("ProjectFile = "D:\BLE\NXP\Firefly\FireBLE\BLE\prj_broadcaster\keil\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 41040ms total)
+T2638 090:801 JLINK_ExecCommand("Device = QN9020", ...)Device "QN9020" selected (0 KB flash, 32 KB RAM).  returns 0x00 (0000ms, 41040ms total)
+T2638 090:801 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 41040ms total)
+T2638 090:801 JLINK_GetHardwareVersion()  returns 0x15F90 (0000ms, 41040ms total)
+T2638 090:801 JLINK_GetDLLVersion()  returns 48601 (0000ms, 41040ms total)
+T2638 090:801 JLINK_GetFirmwareString(...) (0000ms, 41040ms total)
+T2638 090:801 JLINK_GetDLLVersion()  returns 48601 (0000ms, 41040ms total)
+T2638 090:801 JLINK_GetCompileDateTime() (0000ms, 41040ms total)
+T2638 090:801 JLINK_GetFirmwareString(...) (0000ms, 41040ms total)
+T2638 090:801 JLINK_GetHardwareVersion()  returns 0x15F90 (0000ms, 41040ms total)
+T2638 090:801 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0003ms, 41043ms total)
+T2638 090:804 JLINK_SetSpeed(5) (0001ms, 41044ms total)
+T2638 090:805 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 41044ms total)
+T2638 090:805 JLINK_Reset() >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+              JLINK_GetId() >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                returns 0x00000000 (6412ms, 53870ms total)
+T2638 103:633 JLINK_GetId() >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                returns 0x00000000 (3367ms, 57237ms total)
+T2638 107:001 JLINK_GetFirmwareString(...) (0000ms, 57237ms total)
+T2638 121:603 JLINK_Close() (0001ms, 57238ms total)
+T2638 121:603  (0001ms, 57238ms total)
+T2638 121:603 Closed (0001ms, 57238ms total)

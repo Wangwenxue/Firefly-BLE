@@ -62,6 +62,7 @@
  
 ///defined it when used SWD Debug,and LED2/LED3 will do not work.
 //#define  CFG_SWD
+#define  CFG_SWD // wenxue 
  
 ///define it when used Joysticks
 //#define CFG_JOYSTICKS
